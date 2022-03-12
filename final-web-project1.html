@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final-web-project1</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid rgb(39, 13, 151);
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            color: #1a1717;
+            text-align: right;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgb(16, 243, 27);
+            color: red;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+       
+        #main {
+			width: 100%;
+			margin: 10px;
+			float: left;
+			padding: 2 2 2 2;
+			display: flex;
+			flex-direction: row-reverse;
+		}
+
+		#div1 {
+			width: 30%;
+			height: 300px;
+			margin: 4px 96px 9px 44px;
+			padding: auto;
+			border: solid;
+		}
+
+		#div2 {
+			width: 30%;
+			height: 300px;
+			margin: 5px 5px 9px 27px;
+			padding: auto;
+			border: solid;
+		}
+
+		#div3 {
+			width: 30%;
+			height: 300px;
+			margin: 5px 24px 2px 10px;
+			padding: auto;
+			border: solid;
+		}
+		.img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 150px;
+			height: 100px;
+		}   
+        table,th,td{   
+            background-color: whitesmoke;
+        }    
+    </style>
+    
+</head>
+
+<body>
+    <fieldset>
+        
+            <table style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="width: 50%;">
+                            <input type="search" name="search" id="search">
+                        </td>
+                        <td>
+                            <nav>
+
+                                <ul>
+                                    <li> <a href="/home">        Home        </a></li>
+                                    <li> <a href="/porfilo">     Poftilo     </a></li>
+                                    <li> <a href="/our-team">    Our Team    </a></li>
+                                    <li> <a href="/our-service"> Our Service </a></li>
+                                </ul>
+
+                            </nav>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+       
+    </fieldset>
+    <fieldset>
+            <table style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="width: 50%; background-color: bisque; text-align: center;">
+                            <header>
+                                <h1> We help you to solve your
+                                    <br />
+                                    Business problem
+                                </h1>
+                            </header>
+                            <button type="read-more" ; style="color: blue; background-color: bisque; ">
+                                Read More
+                            </button>
+                        </td>
+
+                        <td style="width: 50%;">
+                            <img 
+                                src="https://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg"
+                                alt=""
+                                width="100%">
+                        </td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+        
+    </fieldset>
+
+    <fieldset>
+        <table style="width: 100%;">
+            <tbody>
+                <tr>
+                    <th colspan="4" style="text-align: center;">
+                        <h1>
+                            Porfilo
+                        </h1>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td style="width: 25%; ;">
+                        <img 
+                            src="https://www.w3schools.com/w3images/fjords.jpg" 
+                            alt="" 
+                            width="100%" 
+                            height="100%"
+                        >
+                    </td>
+                    <td style="width: 25%;">
+                        <img 
+                            src="https://www.freelogoservices.com/blog/wp-content/uploads/iStock-922649082-600x400.jpg"
+                            alt="" 
+                            width="100%" 
+                            height="100%"
+                        >
+                    </td>
+                    <td style="width: 25%;">
+                        <img 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtgwR7GnR9vuV5xcLw-z4z-or39X0JsIECA&usqp=CAU"
+                            alt="" 
+                            width="100%" 
+                            height="100%"
+                        >
+                    </td>
+                    <td style="width: 25%;">
+                        <img 
+                            src="https://en.number13.de/content/images/size/w600/2021/08/photo-1542831371-29b0f74f9713.jpg"
+                            alt="" 
+                            width="100%" 
+                            height="100%">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="width: 25%;">
+                        <img src="https://en.number13.de/content/images/size/w600/2021/08/photo-1542831371-29b0f74f9713.jpg"
+                            alt="" width="100%" height="100%">
+                    </td>
+                    <td style="width: 25%;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtgwR7GnR9vuV5xcLw-z4z-or39X0JsIECA&usqp=CAU"
+                            alt="" width="100%" height="100%">
+                    </td>
+                    <td style="width: 25%; ;">
+                        <img src="https://www.w3schools.com/w3images/fjords.jpg" 
+                            alt="" 
+                            width="100%" 
+                            height="100%">
+                    </td>
+                    <td style="width: 25%;">
+                        <img
+                            src="https://www.freelogoservices.com/blog/wp-content/uploads/iStock-922649082-600x400.jpg"
+                            alt="" 
+                            width="100%" 
+                            height="100%">
+                    </td>
+                </tr>
+            </tbody>
+        </table> 
+    </fieldset>
+    <fieldset >
+        <header style="text-align:center">
+            <h2>
+                Our Team
+                </h2>
+        </header>
+        <div id="main">
+            <div id="div1" style="background-color:rgba(120, 230, 31, 0.836)">
+                <img    src="https://www.publicdomainpictures.net/pictures/320000/nahled/background-image.png" 
+                        alt=""
+                        width="100%"
+                        height="50%%"
+                >
+                <header style="text-align: center;">
+                    <h2>
+                        Kimhour
+                    </h2>
+                </header>
+            </div>
+            <div id="div2" style="background-color: aquamarine;">
+                <img    src="https://thumbs.dreamstime.com/z/double-exposure-image-businessman-using-smartphone-sunrise-overlay-cityscape-concept-modern-life-business-123301987.jpg" 
+                        alt=""
+                        width="100%"
+                        height="50%"
+                >
+                <header style="text-align: center;">
+                    <h2>
+                        Nong
+                    </h2>
+                </header>
+            </div>
+            <div id="div3" style="background-color: bisque;">
+                <img    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Qe0kqKqUiuTBcNLMnIEuigg6DhN3uqRseg&usqp=CAU" 
+                        alt=""
+                        width="100%"
+                        height="50%"
+                >
+                <header style="text-align: center;">
+                    <h2>
+                        Mayura
+                    </h2>
+                </header>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+            <h2 style="text-align: center;">
+                Our Service
+            </h2>
+        <div id="main">
+            <div id="div1" style="background-color: #f3c6f1;">
+                <img    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0to_ihvCkJEEChsxRfg2DKEhN4p0GN3-6_px0k1mueHIn-SBZsIjIdgHUSbVRTa5YK8&usqp=CAU" 
+                        alt="world-map"
+                        width="100%"
+                        height="70%"
+                >
+                <h2 style="text-align: center;">
+                        Interior Design
+                </h2>
+            </div>
+            <div id="div2" style="background-color: #92d4f3;">
+                <img    src="https://media.istockphoto.com/vectors/earth-globe-isolated-on-white-background-world-map-earth-icon-clean-vector-id1146253100" 
+                        alt=""
+                        width="100%"
+                        height="70%"
+                >
+                <header style="text-align: center;">
+                    <h2>
+                        Creative Idea
+                    </h2>
+                </header>
+                    
+            </div>
+            <div id="div3" style="background-color: #f0fab9;">
+                <img    src="https://ak.picdn.net/shutterstock/videos/30249445/thumb/6.jpg" 
+                        alt=""
+                        width="100%"
+                        height="50%"
+                >
+                <h2 style="text-align: center;">
+                    Digitai Services
+                </h2>    
+            </div>
+        </div>
+        <div id="main">
+            <div id="div1" style="background-color: #c0f0de;">
+                <img    src="https://static.vecteezy.com/system/resources/thumbnails/004/432/888/small_2x/photo-camera-abstract-colorful-drawing-digital-graphics-illustration-of-paints-vector.jpg" 
+                        alt="photo"
+                        width="100%"
+                        height="70%">
+                <h3 style="text-align: center;">
+                        Photography
+                </h3>
+            </div>
+            <div id="div2" style="background-color: #f1b7a6;">
+                <img    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdTlrcgXPTH7Ma3qKTqMtPa0rt613PQtv-fQ-Pl9qriU1Eo_UK6DFPUEJFScIWk7pPTw&usqp=CAU" 
+                        alt="poeple"
+                        width="100%"
+                        height="70%"
+                >
+                <h3 style="text-align: center;">
+                        Unlimited Support
+                </h3>
+            </div>
+            <div id="div3" style="text-align: center; background-color: #ebbce7;" >
+                <img    src="https://img.pikbest.com/png-images/qianku/colored-light-bulb-ppt-icon_2149749.png!bw340"
+                        alt="light"
+                        width="100%"
+                        height="70%"
+                >
+                <h3 style="text-align: center;">
+                        Online Services
+                </h3>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div style="position: relative; width: 100; height: 800px;">
+            <img    src="https://www.wallpapers4u.org/wp-content/uploads/field_flower_tree_woods_ladybug_sky_32581_1920x1080.jpg" 
+                    alt="" 
+                    width="100%" 
+                    height="800px"
+            >
+            <div style="position: absolute; width: 90% ; height: 90%; bottom: 0px;" >
+                <table style="border-spacing: 40px;">
+                    <tbody>
+                        <tr>
+                            <td  colspan="2"; style="text-align: center;">
+                                  Contact Us
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="first-name"> First Name : </label>
+                                <br/>
+                                <input type="suername" name="username" id="username" style="width: 100%; text-align: center;">
+                            </td>
+                            <td>
+                                <label for="last-name"> Last Name : </label>
+                                <br/>
+                                <input type="username" name="username" id="username">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="phone"> Phone</label>
+                                <br/>
+                                <input type="number" name="number" id="number">
+                            </td>
+                            <td>
+                                <label for="date"> Date </label>
+                                <br/>
+                                <input type="date" name="date" id="date">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="message"> Message </label>
+                                <br/>
+                                <textarea name="message" id="message" cols="50" rows="5">
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button style="width:50%;">
+                                    Send
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>            
+        </div>            
+    </fieldset>
+    <fieldset style=" background-color: #eac2ee;">
+        <Header style="width: 100%; text-align: center; color: rgb(21, 11, 168);">
+            <h3>
+                Website created by with Team-7
+            </h3>
+        </Header>       
+    </fieldset>
+        <textarea name="" id="" cols="204" rows="2" style="background-color: rgb(243, 240, 64);"></textarea>
+        
+</body>
+
+</html>
